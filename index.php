@@ -5,7 +5,7 @@
 	<title>Website Belajar Coding Bahasa Indonesia</title>
 </head>
 <body>
-
+	<p>Ini paragraf pertama</p>
 </body>
 </html>
 
