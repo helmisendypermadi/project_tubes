@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 	<title>Codepolitan - Interactive Coding</title>
+=======
+	<title>Codepolitan</title>
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -70,20 +74,30 @@
 					  Learning Programs
 					</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<<<<<<< HEAD
 					<a class="dropdown-item" href="#">Online Course</a>
 					<a class="dropdown-item" href="#">Developer School</a>
 					<a class="dropdown-item" href="http://localhost/codepolitan/index.php/Materi">Interactive Coding</a>
+=======
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 				</div>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Articles</a>
 				</li>
 				<li class="nav-item">
+<<<<<<< HEAD
 					<a class="nav-link" href="http://localhost/codepolitan/index.php/Event">Event</a>
+=======
+					<a class="nav-link" href="#">Event</a>
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Forum</a>
 				</li>
+<<<<<<< HEAD
 
 				<li class="nav-item horizontal-divider">
 					<a class="nav-link" href="#">My Dashboard</a>
@@ -98,6 +112,11 @@
 			</ul>
 				<!-- <button type="button" class="btn btn-outline-secondary button-login">LOGIN</button>
 			  	<button type="button" class="btn btn-primary button-register">REGISTER</button> -->
+=======
+			</ul>
+				<button type="button" class="btn btn-outline-secondary button-login">LOGIN</button>
+			  	<button type="button" class="btn btn-primary button-register">REGISTER</button>
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 			</div>
 	  </div>
 	</nav>
@@ -140,6 +159,7 @@
 		</div>
 
 		<br><br><br><br><br>
+<<<<<<< HEAD
 
 				<footer class="page-footer font-small blue pt-4">
 
@@ -192,6 +212,8 @@
 		  </footer>
 		  <br>
 		  <!-- Footer -->
+=======
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 	</div>
 
 	<script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>

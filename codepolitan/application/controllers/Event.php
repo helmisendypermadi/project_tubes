@@ -35,7 +35,11 @@ class Event extends CI_Controller
 					'image_event'	=> $data['upload_data']['file_name'],
 					'judul_event'	=> $this->input->post('judul_event'),
 					'tanggal'		=> $this->input->post('tanggal'),
+<<<<<<< HEAD
 					'tempat'			=> $this->input->post('tempat')
+=======
+					'waktu'			=> $this->input->post('waktu')
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 				);
 
 	            $insert = $this->event_model->event_add($data_event);
@@ -67,9 +71,15 @@ class Event extends CI_Controller
 		}
 	}
 
+<<<<<<< HEAD
 	public function event_delete($id){
 		$id_event	= $this->input->post($id);
 		$delete = $this->event_model->event_delete($id);
+=======
+	public function materi_delete($id){
+		$id_materi	= $this->input->post($id);
+		$delete = $this->materi_model->event_delete($id);
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 	            
         if($delete){
 			$res = array(
@@ -90,7 +100,11 @@ class Event extends CI_Controller
 		$data = $this->event_model->get_event_by_id($id);
 		$res = array(
                 'success' => false,
+<<<<<<< HEAD
                 'messages' => 'Event Gagal dihapus'
+=======
+                'messages' => 'Materi Gagal dihapus'
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
             );
 		echo json_encode($data);
 	}
@@ -101,7 +115,11 @@ class Event extends CI_Controller
 
 	        $new_image_name =  $this->input->post('judul_event');
 			
+<<<<<<< HEAD
 			$config['upload_path']="./assets/images/event";
+=======
+			$config['upload_path']="./assets/images/materi";
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 	        $config['allowed_types']='gif|jpg|jpeg|png';
 	        $config['file_name'] = $new_image_name;
 	         
@@ -116,7 +134,11 @@ class Event extends CI_Controller
 					'image_event'	=> $data['upload_data']['file_name'],
 					'judul_event'	=> $this->input->post('judul_event'),
 					'tanggal'		=> $this->input->post('tanggal'),
+<<<<<<< HEAD
 					'tempat'			=> $this->input->post('tempat')
+=======
+					'waktu'			=> $this->input->post('waktu')
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 				);
 				echo json_encode($data_event);
 
@@ -152,9 +174,15 @@ class Event extends CI_Controller
 				'id_event'		=> $this->input->post('id_event'),
 				'judul_event'	=> $this->input->post('judul_event'),
 				'tanggal'		=> $this->input->post('tanggal'),
+<<<<<<< HEAD
 				'tempat'			=> $this->input->post('tempat')
 			);
 			echo json_encode($data_event);
+=======
+				'waktu'			=> $this->input->post('waktu')
+			);
+			echo json_encode($data_materi);
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 
             $update = $this->event_model->event_update(array('id_event' => $this->input->post('id_event')), $data_event);
             

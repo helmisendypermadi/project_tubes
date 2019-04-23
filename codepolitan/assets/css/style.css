@@ -118,6 +118,7 @@ header div p{
 }
 .publish{
     margin: auto;
+<<<<<<< HEAD
 }
 .horizontal-divider{
     border-left: 1px solid rgba(1,1,1,.3);
@@ -169,3 +170,6 @@ ul{
         margin: auto;
     }
 }
+=======
+}
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11

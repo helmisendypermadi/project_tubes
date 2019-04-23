@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 	<title>Codepolitan - Event</title>
+=======
+	<title>Codepolitan</title>
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -37,6 +41,7 @@
 				    <label for="image">Gambar Event</label>
 				    <input type="file" class="form-control-file" name="image_event" id="image_event">
 				</div>
+<<<<<<< HEAD
 				<div class="form-group">
 					<label for="judul_event">Judul Event</label>
 					<input type="text" class="form-control" id="judul_event" name="judul_event" placeholder="Nama Event">
@@ -48,6 +53,23 @@
 				<div class="form-group">
 					<label for="tempat">tempat Event</label>
 					<input type="text" class="form-control" id="tempat" name="tempat" placeholder="tempat Event">
+=======
+				<!-- <div class="form-group">
+					<label for="image">Nama Materi</label>
+					<input type="email" class="form-control" name="image" id="image" aria-describedby="emailHelp" placeholder="Enter email">
+				</div> -->
+				<div class="form-group">
+					<label for="judul_materi">Judul Event</label>
+					<input type="text" class="form-control" id="judul_event" name="judul_event" placeholder="Nama Event">
+				</div>
+				<div class="form-group">
+					<label for="judul_materi">Tanggal Event</label>
+					<input type="text" class="form-control" id="tanggal" name="tanggal" placeholder="Tanggal Event">
+				</div>
+				<div class="form-group">
+					<label for="judul_materi">Waktu Event</label>
+					<input type="text" class="form-control" id="waktu" name="waktu" placeholder="Waktu Event">
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 				</div>
 			
 		</div>
@@ -74,9 +96,14 @@
 					  Learning Programs
 					</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<<<<<<< HEAD
 					<a class="dropdown-item" href="#">Online Course</a>
 					<a class="dropdown-item" href="#">Developer School</a>
 					<a class="dropdown-item" href="http://localhost/codepolitan/index.php/Materi">Interactive Coding</a>
+=======
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 				</div>
 				</li>
 				<li class="nav-item">
@@ -88,6 +115,7 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#">Forum</a>
 				</li>
+<<<<<<< HEAD
 
 				<li class="nav-item horizontal-divider">
 					<a class="nav-link" href="#">My Dashboard</a>
@@ -101,10 +129,25 @@
 			</ul>
 				<!-- <button type="button" class="btn btn-outline-secondary button-login">LOGIN</button>
 			  	<button type="button" class="btn btn-primary button-register">REGISTER</button> -->
+=======
+			</ul>
+				<button type="button" class="btn btn-outline-secondary button-login">LOGIN</button>
+			  	<button type="button" class="btn btn-primary button-register">REGISTER</button>
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 			</div>
 	  </div>
 	</nav>
 
+<<<<<<< HEAD
+=======
+	<!-- <header>
+		<div class="col-md-6">
+			<h2>Interactive Coding</h2>
+			<p>Belajar dasar-dasar pemrograman secara online dengan media belajar interaktif dan dengan materi yang tersusun secara sistematis.</p>
+		</div>
+	</header> -->
+
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 	<div class="container">
 		<div class="row main-content">
 			<p class="publish">Untuk melakukan posting event silahkan login terlebih dahulu. Publish Event Sekarang!</p>
@@ -122,7 +165,11 @@
 							<div class="bottom-act">
 									<div class="col-md-7 col-sm-5 frame-event">
 										<p><i class="fas fa-calendar-alt fa-fw mr-2"></i><span class="tanggal"><?php echo $data->tanggal; ?></span></p>
+<<<<<<< HEAD
 										<p><i class="fas fa-map-marked-alt fa-fw mr-2"></i><span class="tempat"><?php echo $data->tempat; ?></span></p>
+=======
+										<p><i class="fas fa-map-marked-alt fa-fw mr-2"></i><span class="waktu"><?php echo $data->waktu; ?></span></p>
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 									</div>
 									<div class="col-md-5 col-sm-7 frame-action">
 										<button class="btn btn-success waves-effect waves-light" onclick="updateEvent(<?php echo $data->id_event; ?>)"><i class="fas fa-pen"></i></button>
@@ -136,6 +183,7 @@
 		</div>
 
 		<br><br><br><br><br>
+<<<<<<< HEAD
 		
 		<footer class="page-footer font-small blue pt-4">
 
@@ -188,6 +236,8 @@
 		  </footer>
 		  <br>
 		  <!-- Footer -->
+=======
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 	</div>
 
 	<script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
@@ -248,7 +298,31 @@
 
 							    },
 							    error: function (jqXHR, exception) {
+<<<<<<< HEAD
 							        location.reload();
+=======
+							        console.log('masuk error');
+							        var msg = '';
+				        if (jqXHR.status === 0) {
+				            msg = 'Not connect.\n Verify Network.';
+				        } else if (jqXHR.status == 404) {
+				            msg = 'Requested page not found. [404]';
+				        } else if (jqXHR.status == 500) {
+				            msg = 'Internal Server Error [500].';
+				        } else if (exception === 'parsererror') {
+				            msg = 'Requested JSON parse failed.';
+				        } else if (exception === 'timeout') {
+				            msg = 'Time out error.';
+				        } else if (exception === 'abort') {
+				            msg = 'Ajax request aborted.';
+				        } else if (exception.status === 200) {
+				        	msg = 'success';
+				        } else {
+				            msg = 'Uncaught Error.\n' + jqXHR.responseText;
+				        }
+				        // $('#post').html(msg);
+				        console.log(msg);
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 							    }
 							});
 						  	break;
@@ -272,7 +346,11 @@
 			    	$('[name="id_event"]').val(data.id_event);
 			    	$('[name="judul_event"]').val(data.judul_event);
 			    	$('[name="tanggal"]').val(data.tanggal);
+<<<<<<< HEAD
 			    	$('[name="tempat"]').val(data.tempat);
+=======
+			    	$('[name="waktu"]').val(data.waktu);
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 
 			    	$(".modal-add").modal('show');
 			    	// location.reload();
@@ -320,7 +398,11 @@
 						    dataType : "JSON",
 						    success: function(data) {
 						    	console.log(data);
+<<<<<<< HEAD
 						    	// location.reload();
+=======
+						    	location.reload();
+>>>>>>> 770f73d504e3377fd5bade5e9e6ffea6c9c50d11
 						    },
 						    error: function (jqXHR, exception) {
 						        location.reload();
