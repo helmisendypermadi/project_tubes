@@ -1,0 +1,124 @@
+@media (max-width: 576px) {
+
+	.nav-container .hamburger-toggle {
+		height: 52px;
+		display: inline-block;
+		line-height: 52px;
+	}
+
+	.nav-container .hamburger-toggle i.icon.stack-interface.stack-menu {
+		line-height: 48px;
+	}
+
+	.bar.bar-1.mobile-menu {
+		border-top: 1px solid #D9D9D9;
+	}
+
+	.bar.bar-1.mobile-menu .bar__module {
+		display: block;
+		height: auto;
+	}
+
+	.bar.bar-1.mobile-menu .bar__module .menu-horizontal li {
+		line-height: 35px;
+	}
+
+	.bar.bar-1.mobile-menu .bar__module.user-menu-bar {
+		display: none;
+	}
+
+	.bar.bar-1.mobile-menu .bar__module.notif-menu {
+		display: none;
+	}
+
+	.nav-container .bar .bar__module.mobile-dashboard-user {
+		display: block;
+	}
+
+	section.promo-popup-wrapper p {
+		line-height: 25px !important;
+		margin-bottom: 20px;
+	}
+
+	.course-lesson-list .lesson-list-item {
+	    line-height: 25px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+
+	.path-courses .course-item {
+		padding: 20px;
+	}
+
+	.path-courses .course-item .img-num {
+		margin-bottom: 20px;
+	}
+
+	.path-courses .course-item .path-number-wr {
+		width: 90px;
+	}
+
+	.path-courses .course-item .path-number-wr .path-number {
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 20px;
+	}
+
+	.path-courses .course-item .path-time {
+		font-size: 14px;
+	}
+
+	.path-courses .course-item .lead {
+		font-size: 14px;
+	}
+
+	.lesson-menu .menu-title {
+		display: none;
+	}
+
+	.hidden-xs {
+		display: none;
+	}
+
+	.lesson-menu .lesson-menu-wrapper .menu-btn.menubarbtn {
+		display: none;
+	}
+
+	.lesson-container { 
+		background: #ffffff;
+	}
+
+	.content-wrapper .content-body {
+		font-size: 16px;
+	}
+
+	.content-wrapper .content-body p {
+		margin-bottom: 25px;	
+	}
+
+	.content-wrapper .content-body h1,
+	.content-wrapper .content-header .content-title {
+		font-size: 30px;
+		margin-bottom: 25px;
+		line-height: normal;
+	}
+
+	.discussion-container {
+		background: #f5f5f5;
+	}
+
+	.discussion-container.discussion-white {
+		background: #ffffff;
+	}
+
+	.lesson-container .inner-lesson-container.top-border {
+		padding-top: 0px;
+	}
+
+	.lesson-menu .logo-box .logo {
+		height: 40px;
+		width: auto;
+	}
+
+}
